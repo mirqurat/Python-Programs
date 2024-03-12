@@ -1,0 +1,6 @@
+f = open("demo.txt","w")
+f.write("hi everyone \n we are learning file i/o \n using java \n o like programming in java")
+f = open("demo.txt","r")
+data = f.read()
+print(data)
+f.close()
